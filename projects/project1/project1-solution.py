@@ -30,7 +30,7 @@ for word in words:
 #array indexes range from 0 to len(five_letter_words) - 1
 random_int = random.randint(0, len(five_letter_words) - 1)
 target = five_letter_words[random_int]
-print("psst... the word is", target)
+#print("psst... the word is", target)
 
 #FUNCTIONS
 def print_correctness(correctness):
