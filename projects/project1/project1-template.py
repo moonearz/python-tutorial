@@ -7,9 +7,9 @@ We will use the abbreviations G for green, Y for yellow, X for gray to avoid usi
 
 """
 Generating 5 letter words:
-You are given a large list of words (of many lengths), called words, and an empty list called five_letter_words. 
+You are given a large list of lowercase words (of many lengths), called words, and an empty list called five_letter_words. 
 1. Write a function that returns True if a string contains 5 characters and False otherwise
-2. Loop through the words in words and use the .append() function to add 5 letter words to five_letter_words
+2. Loop through the words in words and use the .append() function to add the 5 letter words to five_letter_words
 
 list.append(parameter) adds parameter to the end of the list
 """
@@ -45,25 +45,25 @@ Assign the chosen word to a variable called target
 
 """
 Game start:
-Print a welcome message and key to the console:
+1. Print the following welcome message and key to the console:
 Welcome to WORDLE!
 Key: "G" = green, "Y" = yellow, "X" = gray
 
-Create a variable called guess_number and set its value to 1
-Start a while loop that runs while guess_number is less than or equal to 6
+2. Create a variable called guess_number and set its value to 1
+3. Start a while loop that runs while guess_number is less than or equal to 6
 
 We will use a list called correctness to store which letters in the user's guess are correct
 Initialize the correctness list with 5 empty strings
 
-Write a function that prints each character in the correctness array to the console (with a space in between) followed by a new line
+4. Write a function that prints each character in the correctness array to the console (with a space in between) followed by a new line
 
-Use the function you just created + print/input statements to make the following appear in the console:
+5. Use the function you just created + print/input statements to make the following appear in the console:
 
 _ _ _ _ _
 
 Enter a guess: 
 
-The user's entry should be saved under the variable name guess
+The user's entry should be saved under the variable name guess (use .lower() to make it lowercase)
 Assume their entry will be a five character string
 """
 

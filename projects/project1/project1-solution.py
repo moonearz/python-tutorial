@@ -12,14 +12,14 @@ for char in text:
         words.append(temp_word)
         temp_word = ""
     else:
-        temp_word += char   
+        temp_word += char  
 
 #GET FIVE LETTER WORDS
 five_letter_words = []
 def has_5_letters(word):
     """
     Input: string word
-    Returns True if word contains 5 characters, false otherwise
+    Returns True if word contains 5 characters, False otherwise
     """
     return len(word) == 5
 
@@ -40,10 +40,10 @@ def print_correctness(correctness):
     Does not return a value
     """
     for char in correctness:
+        #don't want a new line after each char, hence end = ""
         print(char + " ", end = "")
     print()
 
-#CORRECTNESS FUNCTIONS
 def reset_correctness(correctness):
     """
     Input: correctness list
@@ -132,7 +132,7 @@ print('Key: "G" = green, "Y" = yellow, "X" = gray')
 while(guess_number < 7):
     print_correctness(correctness)
     print("- - - - -")
-    guess = input(("Enter a guess: "))
+    guess = input(("Enter a guess: ")).lower()
     if are_equal(target, guess):
         print("Congratulations! You guessed right. The word was", target)
         break
