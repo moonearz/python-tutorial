@@ -44,7 +44,7 @@ else:
 """
 
 """
-b) Write a function that takes as input a list (of words, in alphabetical) and a string and uses bisection search
+b) Write a function that takes as input a list (of words, in alphabetical order) and a string and uses bisection search
  to determine if the word is in the "dictionary". If the word is in the dictionary, the function should return its
  index and print how many guesses it had to make. If the word is not in the dicitionary the function should print
  that it did not find the word and return -1.

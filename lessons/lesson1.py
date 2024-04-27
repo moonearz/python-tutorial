@@ -11,6 +11,13 @@ What is a computer program?
 How does a computer read a computer program?
 """
 
+"""
+Install VScode
+Install python3
+Shell vs. editor
+Terminal basics
+"""
+
 print("Hello World!")
 
 
@@ -170,6 +177,43 @@ for i in range(12):
         print("goose!")
     else:
         print("duck")
+"""
+
+"""
+Check in:
+
+1. You run the following code in the editor:
+type(5)
+print(3.0 - 1)
+
+What is printed?
+a) int
+b) 2.0
+c) int then 2.0
+d) nothing
+
+2. Which is allowed in Python?
+a) x + y = 2
+b) x * x = 2
+c) 2 = x
+d) xy = 2
+e) None of the above
+
+3. What's printed when the followng program is run in the editor?
+my_gold = 10
+your_gold = 5
+his_gold = 3
+
+total_gold = my_gold + your_gold + his_gold
+print(total_gold)
+
+his_gold += 1
+print(total_gold)
+
+a) 74 then 74
+b) 74 then 75
+c) 74
+d) 75
 """
 
 """

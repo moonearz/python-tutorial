@@ -57,7 +57,7 @@ print(s[4:1:-2])
 """
 
 """
-strings cannot be modified once they are created, call this property immutability, say string are immutable
+strings cannot be modified once they are created, call this property immutability, say strings are immutable
 we can use assignment to overwrite values to new strings, however
 """
 
@@ -128,7 +128,7 @@ for guess in range(cube + 1):
 
 
 """ 
-#adaptation to include negative cube roots
+#adaptation to include negative cube roots, output for failed cubes
 cube = -512
 for guess in range(abs(cube) + 1):
     if guess**3 >= abs(cube):
