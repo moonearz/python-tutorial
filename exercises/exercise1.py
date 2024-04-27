@@ -6,6 +6,8 @@ extra credit -- make the messages alternate
 extra extra credit -- make the messages follow the pattern ab ba ab ba ab
 """
 
+#SOLUTION
+
 message1 = "what's up brother?"
 message2 = "special teams, special plays, special players"
 

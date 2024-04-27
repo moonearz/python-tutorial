@@ -176,11 +176,31 @@ def g(x):
     h()
     return x
 
-x = 3
-z = g(x)
-print(z)
+#x = 3
+#z = g(x)
+#print(z)
 
 """
 major advantage of functions-- only have to debug once!
-exercise: predict outputs of programs (see exercise file)
+exercises: 
+a) predict outputs of programs (see exercise file)
+b) use bisection search to write a function that finds a word in a dictionary
+The exercise file has supplementary code to test your search function on a real dictionary
 """
+
+"""
+Super common data storage in python: lists and tuples
+lists are like strings except instead of storing characters they can store any object type
+tuples are lists of a fixed size, say 2
+"""
+
+#list = [1, 2, 3]
+#print(list)
+#tuple = ["x", "y"]
+#print(tuple)
+#print(tuple[0])
+#list.append(4)
+#print(list)
+
+#for number in list:
+    #print(number + 1)

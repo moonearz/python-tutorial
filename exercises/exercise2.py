@@ -17,8 +17,13 @@ after their average, print their letter grade using the following scale:
 <59 -> F
 """
 
+#SOLUTION
+
+#Numbers we need to compute the average
 sumGrades = 0.0
 numEntries = 0
+
+#Get user input
 while True:
     userInput = input("Enter a grade! Or enter compute to calculate your average: ")
     if userInput == "compute":
@@ -27,6 +32,7 @@ while True:
         sumGrades += float(userInput)
         numEntries += 1
 
+#Compute average and letter grade, if possible
 if numEntries == 0:
     print("uh-oh! no grades entered")
 else:

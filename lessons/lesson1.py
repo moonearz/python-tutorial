@@ -73,7 +73,6 @@ print("g is now " + str(g) + "!")
 Notice the section above repeats a lot of code. We can streamline this process using a process called iteration
 """
 
-
 """ 
 #simple iteration:
 for i in range(5):

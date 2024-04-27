@@ -231,5 +231,5 @@ print(guess, 'is close to the cube root of', cube)
 """
 exercise: 
 a) modify the bisection algorithm for cube roots to work with negative numbers and numbers < 1
-b)
+b) see exercise3.py
 """
