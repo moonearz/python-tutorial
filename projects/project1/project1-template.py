@@ -61,7 +61,6 @@ Initialize the correctness list with 5 empty strings
 5. Use the function you just created + print/input statements to make the following appear in the console:
 
 _ _ _ _ _
-
 Enter a guess: 
 
 The user's entry should be saved under the variable name guess (use .lower() to make it lowercase)
@@ -87,14 +86,23 @@ should keep track of which index it is comparing. If the strings are equal at an
 (Yellow letters)
 4. Write a function that takes an input of two strings and returns their difference as two five character strings (a tuple) in the following way:
 If input1[i] = input2[i], output1[i] = output2[i] = "_". Otherwise, output1[i] = input1[i] and output2[i] = input2[j]
+EXAMPLE: func("crane", "crate") = ["___n_", "___t_"]
+
 5. Write a function that takes an input of two strings, temp_target and temp_guess, and the correctness list. The function should iterate through temp_guess in order and check if the 
 characters in temp_guess are in temp_target, skipping lo-dashes. If character i of guess is in target, set correctness[i] to "Y" for yellow. Then, remove the corresponding letter
 from temp_target to avoid double counting yellow tiles.
+
 6. Combine 4 and 5 to make a function that sets the yellow characters in correctness
 
 (Gray letters)
 7. Write a function that sets any empty characters in correctness to "X"
+"""
 
+#YOUR CODE GOES HERE
+#YOUR CODE GOES HERE
+#YOUR CODE GOES HERE
+
+"""
 In your game loop, check if the guessed word is the same as the target word. If it is, print "Congratulations! You guessed right. The word was " + target to the console and break out of the while loop
 If not, do all of the following (inside your while loop):
 Add one to the guess counter
