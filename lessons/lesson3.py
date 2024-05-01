@@ -8,6 +8,15 @@ alogrithmic thinking:
 """
 
 """
+Learning Outcomes-- at the end of this lesson you will be able to:
+
+Define Python strings from a string-sequence perspective
+Manipulate strings using the len() and slice functions
+Describe some approaches to solving computational problems and compare (broadly) their efficiency
+Modify programs slightly based on given additional specifications
+"""
+
+"""
 thinking of strings as sequences of characters
 example: "abby" = [a, b, b, y]
 can compare with ==, <, > (comparison is alphabetical order)

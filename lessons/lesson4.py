@@ -8,6 +8,16 @@ scope
 """
 
 """
+Learning Outcomes-- at the end of this lesson you will be able to:
+
+Define abstraction and decomposition and describe how they are useful in computer programming
+Write simple functions in Python
+Modify or use simple functions to solve analagous or similar problems
+Use knowledge of function scope to predict the output of more complicated computer programs
+Build bigger programs by breaking problems up into smaller pieces
+"""
+
+"""
 ABSTRACTION-- we don't need to know how something works to use it
 example -> electric pallet jack
 DECOMPOSITION-- different devices work together to acheive a larger end goal

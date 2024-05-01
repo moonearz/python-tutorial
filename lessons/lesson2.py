@@ -3,6 +3,15 @@
 #branching and iteration, control flow
 
 """
+Learning Outcomes-- at the end of this lesson you will be able to:
+
+Define what strings and booleans are in Python
+Manipulate strings and booleans using their associated operators
+Predict the output of simple programs that use conditional statements
+Write basic programs that take user input and can make decisions based on that input
+"""
+
+"""
 Strings: a super important data type in python (and most languages)
 letters, special characters, spaces, digits
 enclose in quotes "" or single quotes ''

@@ -6,6 +6,14 @@
 #intro iteration and branching
 
 """
+Learning Outcomes-- at the end of this lesson you will be able to:
+
+Describe the process by which a human-written computer program is executed by a computer
+Define Python objects by type
+Create simple programs in Python using print statements and variable assignment
+"""
+
+"""
 What is a computer?
 What is a computer program?
 How does a computer read a computer program?
